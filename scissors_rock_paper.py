@@ -22,6 +22,9 @@ def reset_scores():
     score_computer=0
     label_score_player.config(text=f"SCORE: {score_player}")
     label_score_computer.config(text=f"SCORE: {score_computer}")
+    label_player_image.config(image=image_rock)
+    label_computer_image.config(image=image_rock)
+
 
     
     
